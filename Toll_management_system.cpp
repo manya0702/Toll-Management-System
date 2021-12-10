@@ -17,7 +17,7 @@ public:
     int type;
     void details(){
         cout<<"||Enter the Details of the vehicle||"<<endl;
-        cout<<"Enter the Vehicle type:(4) for four wheelers and (2) for two wheelers "<<endl;
+        cout<<"Enter the Vehicle type:Enter 4 for a four wheeler or Enter 2 for a two wheeler "<<endl;
         cin>>type;
         cout<<"Enter Vehicle name: "<<endl;
         getchar();
